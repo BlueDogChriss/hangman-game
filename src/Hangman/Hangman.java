@@ -1,7 +1,7 @@
 package Hangman;
 
-import Hangman.DifficultyManagement.Difficulty;
-import Hangman.WordPicker.WordPicker;
+import DifficultyManagement.Difficulty;
+import WordPicker.WordPicker;
 
 import java.util.ArrayList;
 
@@ -53,7 +53,7 @@ public class Hangman {
 
     public void updateScore() {
         if (isGameOver() && getDisplayedWord().equals(hiddenWord)) {
-            score += 10;
+            score = score+10;
         }
     }
 
@@ -63,10 +63,9 @@ public class Hangman {
 
     public String getVictoryMessage() {
         if (isGameOver() && getDisplayedWord().equals(hiddenWord)) {
-            updateScore();
-            return "You guessed the word! You win! Score: " + score;
+            return "You guessed right! You win!";
         } else if (isGameOver()) {
-            return "You ran out of guesses! The word was: " + hiddenWord + ". Score: " + score;
+            return "You ran out of guesses! The word was: " + hiddenWord;
         }
         return null;
     }

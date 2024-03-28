@@ -1,4 +1,4 @@
-package Hangman.DifficultyManagement;
+package DifficultyManagement;
 
 public class EasyMode implements Difficulty{
 

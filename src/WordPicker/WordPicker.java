@@ -1,4 +1,4 @@
-package Hangman.WordPicker;
+package WordPicker;
 
 public interface WordPicker {
     String pickWord();

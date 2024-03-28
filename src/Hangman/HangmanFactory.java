@@ -1,11 +1,11 @@
 package Hangman;
 
-import Hangman.DifficultyManagement.Difficulty;
-import Hangman.DifficultyManagement.EasyMode;
-import Hangman.DifficultyManagement.HardMode;
-import Hangman.DifficultyManagement.MediumMode;
-import Hangman.WordPicker.WordPicker;
-import Hangman.WordPicker.RandomWordPick;
+import DifficultyManagement.Difficulty;
+import DifficultyManagement.EasyMode;
+import DifficultyManagement.HardMode;
+import DifficultyManagement.MediumMode;
+import WordPicker.WordPicker;
+import WordPicker.RandomWordPick;
 
 public class HangmanFactory {
 

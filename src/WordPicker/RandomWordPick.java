@@ -1,4 +1,4 @@
-package Hangman.WordPicker;
+package WordPicker;
 
 import java.util.Random;
 

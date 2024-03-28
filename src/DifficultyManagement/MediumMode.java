@@ -1,4 +1,4 @@
-package Hangman.DifficultyManagement;
+package DifficultyManagement;
 
 public class MediumMode implements Difficulty{
     @Override
